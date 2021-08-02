@@ -1,0 +1,36 @@
+name: journey_into_get_management
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.1.4 
+  cloud_firestore: any
+  cupertino_icons: ^1.0.2
+  firebase_auth: any
+  firebase_core: any
+  firebase_messaging: ^10.0.4
+  google_maps_flutter: any
+  nb_utils: ^4.0.9
+  provider: ^5.0.0
+
+ 
+
+dev_dependencies:
+  flutter_test:
+
+    
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/
